@@ -1,0 +1,57 @@
+body{
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    align-items: center;
+    background-color: aqua;
+
+    
+    
+}
+.wrapper{
+    width: 350px;
+    background: transparent;
+    border: 2px solid;
+    color: rgb(187, 185, 185);
+    border-radius: 15px;
+    padding: 40px 50px;
+    background-color: aliceblue; 
+} 
+
+h1{
+    color: black;
+}
+
+.survey-form{
+    text-align: left;
+    margin: 20px;
+    justify-content: space-between;
+  
+
+}
+.survey-form input{
+    width: 300px;
+    height: 20px;
+       
+}
+.survey-form label{
+    color: black;
+    display: flex;
+    justify-content: left;
+ 
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: hsl(160, 100%, 75%);
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color: hsl(177, 100%, 22%);
+}

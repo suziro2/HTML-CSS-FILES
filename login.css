@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(SBD3.jpg);
+}
+
+.wrapper{
+    width: 350px;
+    background: transparent;
+    border: solid;
+    color: rgb(186, 167, 167);
+    width: 340px;
+    border-radius: 15px;
+    padding: 40px 50px;
+    text-align: center;
+    backdrop-filter: blur(1px);
+    
+} 
+
+.login-form input{
+    background: none;
+    border: 1px solid rgb(186, 167, 167);
+    width: 340px;
+    height: 30px;
+    border-radius: 20px;
+       
+}
+.login-form input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+.register-link a:hover{
+    color: hsl(180, 33%, 1%);
+    
+}
+.btn:hover{
+    color: hsl(0, 0%, 0%);
+
+}
+a{
+    color: blue;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    
+}
+
+.Remember-forgot{
+    color: black;
+    
+}
+.btn{
+    border: 1px solid;
+    width: 350px;
+    border-radius: 20px;
+    height: 30px;
+    
+}
+#password::placeholder{
+    color: blue;
+    font-size: 15px;
+}
+#username::placeholder{
+    color: blue;
+    font-size: 15px;
+}
+
